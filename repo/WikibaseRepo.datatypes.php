@@ -310,6 +310,25 @@ return call_user_func( function() {
 				return new ObjectUriRdfBuilder();
 			},
 		],
+		'PT:external-image' => [
+			'validator-factory-callback' => function() {
+				$factory = WikibaseRepo::getDefaultValidatorBuilders();
+				return $factory->buildUrlValidators();
+			},
+			'formatter-factory-callback' => function( $format, FormatterOptions $options ) {
+				$factory = WikibaseRepo::getDefaultValueFormatterBuilders();
+				return $factory->newExternalImageFormatter( $format, $options );
+			},
+			'rdf-builder-factory-callback' => function (
+				$flags,
+				RdfVocabulary $vocab,
+				RdfWriter $writer,
+				EntityMentionListener $tracker,
+				DedupeBag $dedupe
+			) {
+				return new ObjectUriRdfBuilder();
+			},
+		],
 		'PT:external-id' => [
 			// NOTE: for 'formatter-factory-callback', we fall back to plain text formatting
 			'snak-formatter-factory-callback' => function( $format, FormatterOptions $options ) {

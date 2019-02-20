@@ -28,4 +28,5 @@ return [
 	'PT:external-id'       => [ 'value-type' => 'string' ],
 	'PT:wikibase-item'     => [ 'value-type' => 'wikibase-entityid' ],
 	'PT:wikibase-property' => [ 'value-type' => 'wikibase-entityid' ],
+	'PT:external-image'    => [ 'value-type' => 'string' ],
 ];

@@ -114,5 +114,11 @@ return call_user_func( function() {
 				return $factory->newExternalIdentifierFormatter( $format, $options );
 			},
 		],
+		'PT:external-image' => [
+			'formatter-factory-callback' => function( $format, FormatterOptions $options ) {
+				$factory = WikibaseClient::getDefaultValueFormatterBuilders();
+				return $factory->newExternalImageFormatter( $format, $options );
+			},
+		],
 	];
 } );

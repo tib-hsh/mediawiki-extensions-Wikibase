@@ -58,6 +58,7 @@ $wgAutoloadClasses += [
 	'Wikibase\\Lib\\GlobeCoordinateDetailsFormatter' => __DIR__ . '/includes/Formatters/GlobeCoordinateDetailsFormatter.php',
 	'Wikibase\\Lib\\HtmlTimeFormatter' => __DIR__ . '/includes/Formatters/HtmlTimeFormatter.php',
 	'Wikibase\\Lib\\HtmlUrlFormatter' => __DIR__ . '/includes/Formatters/HtmlUrlFormatter.php',
+	'Wikibase\\Lib\\ExternalImageFormatter' => __DIR__ . '/includes/Formatters/ExternalImageFormatter.php',
 	'Wikibase\\Lib\\Interactors\\ConfigurableTermSearchInteractor' => __DIR__ . '/includes/Interactors/ConfigurableTermSearchInteractor.php',
 	'Wikibase\\Lib\\Interactors\\DispatchingTermSearchInteractor' => __DIR__ . '/includes/Interactors/DispatchingTermSearchInteractor.php',
 	'Wikibase\\Lib\\Interactors\\DispatchingTermSearchInteractorFactory' => __DIR__ . '/includes/Interactors/DispatchingTermSearchInteractorFactory.php',

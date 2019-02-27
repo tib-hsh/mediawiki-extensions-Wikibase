@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bencemac",
+			"Wolf Rex"
+		]
+	},
+	"valueview-expert-unsupportedvalue-unsupporteddatatype": "A(z) „$1” típusú adatokat még nem támogatjuk.",
+	"valueview-expert-emptyvalue-empty": "üres",
+	"valueview-expert-timevalue-calendar-gregorian": "Gergely",
+	"valueview-expert-timeinput-calendar": "Naptár:",
+	"valueview-expertextender-languageselector-languagetemplate": "$1 ($2)",
+	"valueview-expertextender-languageselector-label": "Nyelv (kötelező):"
+}
